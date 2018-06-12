@@ -1,7 +1,7 @@
 {
-  "name": "joystick",
+  "name": "react-svg-joystick",
   "version": "1.0.0",
-  "description": "React Joystick Component",
+  "description": "React SVG Joystick Component, Support click & tap",
   "main": "src/index.js",
   "scripts": {
     "build": "NODE_ENV=dev webpack",
