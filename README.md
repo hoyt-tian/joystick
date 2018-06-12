@@ -5,7 +5,7 @@
 * Support click event and tap event
 * customerize key event and press interval
 
-![preview](./preview.png)
+![preview](preview.png)
 
 
 
