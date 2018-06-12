@@ -1,0 +1,93 @@
+.joystick {
+  rect{
+    fill:#5e5e5e;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:#1d1d1d;
+    stroke-width:1.5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+  }
+  path[id="main"] {
+    fill:#1d1d1d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+  }
+  path.cross  {
+    fill:#5e5e5e;
+    fill-opacity:1;
+    fill-rule:evenodd;
+  }
+
+  path.triangle {
+    fill:#8a8a8a;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:none;
+  }
+
+  rect.led {
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1.50000007;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+  }
+
+  path.btn {
+    fill:#bdbdbd;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:#1d1d1d;
+    stroke-width:1.50000011999999994;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+  }
+
+  path.btn-dir {
+    fill:#bdbdbd;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:#1d1d1d;
+    stroke-width:1.50000000000000000;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+  }
+
+  path.btn-fun {
+    fill:#bdbdbd;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:#1d1d1d;
+    stroke-width:1.50000011999999994;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+  }
+
+  path.btn, path.btn-fun, path.btn-dir, path.triangle, rect.led {
+    &.active {
+      fill: green;
+    }
+  }
+
+  path.btn-group-func {
+    fill: #5e5e5e;
+    fill-opacity: 1;
+    fill-rule: evenodd;
+  }
+}
